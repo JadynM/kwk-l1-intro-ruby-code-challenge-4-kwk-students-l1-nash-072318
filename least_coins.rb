@@ -1,6 +1,6 @@
 #write out your code here
 
 def least_coins(cents)
-  puts ""
+  puts least_coins 
 
 end
