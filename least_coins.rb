@@ -26,4 +26,3 @@ puts solution
 
 end
 
-least_coins(72)
