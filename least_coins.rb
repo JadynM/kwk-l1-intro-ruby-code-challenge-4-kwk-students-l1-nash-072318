@@ -13,8 +13,11 @@ num_dimes = cents / 10
 solution[:dimes]=num_dimes
 cents = cents - 10*num_dimes
 
-num_nickles = cents / 5 
-solution[:]
+num_nickels = cents / 5 
+solution[:nickels]=num_nickels
+cents = cents - 5*num_nickels
+
+
 
   
 puts solution
