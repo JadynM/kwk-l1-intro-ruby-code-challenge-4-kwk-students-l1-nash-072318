@@ -17,7 +17,9 @@ num_nickels = cents / 5
 solution[:nickels]=num_nickels
 cents = cents - 5*num_nickels
 
-
+num_pennies = cents / 1 
+solution[:pennies]=num_pennies
+cents=cents - 1*num_pennies
 
   
 puts solution
