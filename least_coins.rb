@@ -22,7 +22,7 @@ solution[:pennies]=num_pennies
 cents=cents - 1*num_pennies
 
   
-puts solution
+return solution
 
 end
 
